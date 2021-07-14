@@ -28,13 +28,19 @@ header {
   padding: 30px;
   margin: 10px;
 }
-.banner-img {
+.banner-photo {
   padding: 30px;
   margin: 10px;
+  /* overflow: hidden; */
 }
-.banner-img img {
+.banner-photo img {
+  transition: transform 3s ease-in-out;
   width: 100%;
 }
+.banner-photo:hover img {
+  transform: scale(1.2) rotate(20deg);
+}
+
 .btn {
   background: #e02c6d;
   color: #ffffff;
@@ -74,7 +80,7 @@ header {
 }
 
 .highlight-info h3 {
-  font-size: 30px;
+  font-size: 44px;
 }
 .highlight-photo {
   padding: 8px;
