@@ -83,3 +83,26 @@ header {
 .highlight-photo img {
   width: 100%;
 }
+
+/* footer section styles */
+.footer-all {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 20px;
+  padding: 10px;
+}
+.footer-all img {
+  width: 100%;
+}
+.icons i {
+  margin: 5px;
+  padding: 5px;
+  font-size: 20px;
+  color: #e02c6d;
+}
+h5 {
+  font-size: 20px;
+}
