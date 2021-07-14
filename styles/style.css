@@ -44,6 +44,7 @@ header {
 .players {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  /* margin: 20px; */
 }
 .player {
   background: #ffffff;
@@ -54,5 +55,31 @@ header {
   padding: 15px;
 }
 .player-photo img {
+  width: 100%;
+}
+.highlights {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 69px;
+  align-items: center;
+  /* display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; */
+}
+.highlight-info {
+  padding: 8px;
+
+  margin: 20px;
+}
+
+.highlight-info h3 {
+  font-size: 30px;
+}
+.highlight-photo {
+  padding: 8px;
+  margin: 20px;
+}
+.highlight-photo img {
   width: 100%;
 }
